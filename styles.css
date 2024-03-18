@@ -1,0 +1,41 @@
+body {
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    font-family: Arial, bold;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+nav {
+    border: 10px;
+    padding: 10px;
+    position: left;
+    top: 0px;
+}
+.logo-container { 
+    background-color: #03a3df;
+    padding: 5px;
+    display: inline-block;
+}
+.logo-container img {
+    display: block;
+    max-width: 100;
+}
+.container {
+    border: 20px;
+    padding: 20px;
+    margin: 20px;
+}

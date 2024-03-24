@@ -1,41 +1,92 @@
+
 body {
-    width: 300px;
-    border: 15px;
-    padding: 50px;
-    margin: 20px;
-    font-family: Arial, bold;
-    font-size: 17px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    font-size: 40px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 17px;
-}
-
-nav {
-    border: 10px;
-    padding: 10px;
-    position: left;
-    top: 0px;
-}
-.logo-container { 
-    background-color: #03a3df;
-    padding: 5px;
-    display: inline-block;
-}
-.logo-container img {
-    display: block;
-    max-width: 100;
-}
 .container {
-    border: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+aside {
+    grid-column: span 2;
+}
+
+section {
+    grid-column: span 4;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer img {
+    max-width: 100%;
+}
+
+/* Instructors Page Styles */
+aside,
+section {
+    background-color: #f4f4f4;
     padding: 20px;
-    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3,
+h4 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer img {
+    max-width: 100%;
 }
